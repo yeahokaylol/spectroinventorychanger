@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{aa9419da-edb7-4dbe-a543-f3085a88c551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SDK\SDK Headers">
+      <UniqueIdentifier>{f8d06c3a-c271-4d28-b42b-cc0929751f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\SDK Headers\Valve">
+      <UniqueIdentifier>{e5e8d572-620a-45ca-9243-daaae7428e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Math">
+      <UniqueIdentifier>{1a586bea-17a5-4963-95c5-0ded167d507e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{0921a2cf-69df-46b8-8594-a2b00e8f4611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Hacks">
+      <UniqueIdentifier>{3892e4bf-9949-45e0-b25e-94f576b0b298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Menu">
+      <UniqueIdentifier>{9b349884-b260-4de2-ab07-d26cdce682a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{986e73bd-2d05-46b3-be7e-de118d0633f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Utils">
+      <UniqueIdentifier>{f9759821-131a-40c8-aa6e-113be5e862f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Offsets">
+      <UniqueIdentifier>{a53dd645-a479-4581-b51d-879fb0f1f62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetVarManager">
+      <UniqueIdentifier>{187832a2-4ace-4f54-a9dc-70231cbd74cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{dfbce6c5-7bbd-4ff4-8eed-b5303cdb4a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{fc2479df-fc82-4772-92fd-9fec49920107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkinChanger">
+      <UniqueIdentifier>{63479684-9c72-433c-b578-ae9e44df4e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NewResolver">
+      <UniqueIdentifier>{a3722ff4-b44a-4c95-8406-d24e3a87ccbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{39a00a88-f264-4510-b209-0e945e842bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrenadePrediction">
+      <UniqueIdentifier>{27b7effe-e654-4066-8873-3f71a9e1114a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BulletTracers">
+      <UniqueIdentifier>{2253f953-a550-4e06-aa23-174a69a6729f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackTrack Recode">
+      <UniqueIdentifier>{5fdf5532-5b5a-4867-bcc0-b997fdc5608d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{53eabf7d-4590-4906-935e-99d8ed7f7342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI\dx9">
+      <UniqueIdentifier>{9c176992-0a44-45ea-a7ce-66a760a9675f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Options">
+      <UniqueIdentifier>{a07f362f-b75a-45f6-a129-834eae1d154d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuUI">
+      <UniqueIdentifier>{927b0c6b-7150-4312-82de-de9ec1c2fda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConfigSystem">
+      <UniqueIdentifier>{1d7c0d29-6431-45c6-9b28-bc511fba0841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PredictionSystem">
+      <UniqueIdentifier>{59324ea9-d843-4fd5-8930-1d7fb4cdaabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlights">
+      <UniqueIdentifier>{40c73163-3d63-42e1-8cd4-b4347cd7dfc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LegitBot">
+      <UniqueIdentifier>{ad3c1c99-ac27-4140-9989-c05b3128c37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VMTHook">
+      <UniqueIdentifier>{71f8115b-af00-4c61-bfbd-6ef66b1335ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkinChanger\Parser">
+      <UniqueIdentifier>{e95c6b5a-4d31-4f0a-bb73-52cc169d12ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackTrack Recode\Legit">
+      <UniqueIdentifier>{a77481e8-1ee4-406b-a6f9-9739fb89ec91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chams">
+      <UniqueIdentifier>{22bf3da9-a9d5-486b-8b3a-f4e4153e0690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{bfe3aaa5-89ad-4e4e-8fb5-77395604fd63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\DirectX">
+      <UniqueIdentifier>{75b4dce3-46e0-429f-8c49-ed09736a2321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visuals">
+      <UniqueIdentifier>{d3d844dc-82d6-4bcb-9e4f-310985c9e557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{32ef8a99-d7d6-470a-82ce-918eb5c44f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{e4a727a8-fd84-48fd-8f76-1f59f904a872}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Menu\Controls.h">
+      <Filter>Tools\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\Valve\Vector.h">
+      <Filter>SDK\SDK Headers\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\Valve\checksum.h">
+      <Filter>SDK\SDK Headers\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\Valve\checksum_crc.h">
+      <Filter>SDK\SDK Headers\Valve</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CClient.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CGameMovement.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CGlobleVars.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CInput.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CModelInfo.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CPred.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CTrace.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\DebugOverlay.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\EngineClient.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\EntList.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\ICVars.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\ISurface.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\IVRenderView.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\SDK_Others.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Math\Math.h">
+      <Filter>SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Math\Vectors.h">
+      <Filter>SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\CGameEvent.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\Antiaim.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\Aimbot.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\CreateMoveETC.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\Esp.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\Strafer.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Utils\Autowall.h">
+      <Filter>Tools\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Hacks\KnifeBot.h">
+      <Filter>Tools\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="NightMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="strenc.h">
+      <Filter>NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="pcg32.h">
+      <Filter>NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv1.h">
+      <Filter>NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK Headers\Entitys.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger-KentMeister.h">
+      <Filter>SkinChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="ResolverV2.h">
+      <Filter>NewResolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioRender.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="INetChannel.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>GrenadePrediction</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTracers.h">
+      <Filter>BulletTracers</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamInterface.h">
+      <Filter>BulletTracers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\dx9\imgui_dx9.h">
+      <Filter>ImGUI\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Options</Filter>
+    </ClInclude>
+    <ClInclude Include="NameSpace.h">
+      <Filter>MenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>ConfigSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PredSys.h">
+      <Filter>PredictionSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DLightInterface.h">
+      <Filter>Dlights</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>LegitBot</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitMath.h">
+      <Filter>LegitBot</Filter>
+    </ClInclude>
+    <ClInclude Include="vmthook.h">
+      <Filter>VMTHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>SkinChanger\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigSkins.h">
+      <Filter>ConfigSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineSound.h">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBackTracking.h">
+      <Filter>BackTrack Recode\Legit</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModel.h">
+      <Filter>Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="Chamz.h">
+      <Filter>Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderD9.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>DirectX\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="D9Visuals.h">
+      <Filter>Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageD9.h">
+      <Filter>Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorCFG.h">
+      <Filter>ConfigSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detver.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="calantag.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\inventory_changer.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\profile_info_changer.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\ProtobuffMessages.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\ProtoField.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\ProtoWriter.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\Protobuffs.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\IMemAlloc.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="Protobuf\newvmt.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>SDK\SDK Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Menu\Controls.cpp">
+      <Filter>Tools\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK Headers\Valve\checksum_crc.cpp">
+      <Filter>SDK\SDK Headers\Valve</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Math\Math.cpp">
+      <Filter>SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>NetVarManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Entitys.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger-KentMeister.cpp">
+      <Filter>SkinChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>GrenadePrediction</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTracers.cpp">
+      <Filter>BulletTracers</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\dx9\imgui_dx9.cpp">
+      <Filter>ImGUI\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Options</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSpace.cpp">
+      <Filter>MenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>ConfigSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PredSys.cpp">
+      <Filter>PredictionSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>LegitBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>SkinChanger\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigSkins.cpp">
+      <Filter>ConfigSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBackTracking.cpp">
+      <Filter>BackTrack Recode\Legit</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModel.cpp">
+      <Filter>Chams</Filter>
+    </ClCompile>
+    <ClCompile Include="Chamz.cpp">
+      <Filter>Chams</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderD9.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>DirectX\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="D9Visuals.cpp">
+      <Filter>Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageD9.cpp">
+      <Filter>Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorCFG.cpp">
+      <Filter>ConfigSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\creatwth.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detours.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disasm.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolarm.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolarm64.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolia64.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolx64.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolx86.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\image.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\modules.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Math\Vectors.cpp">
+      <Filter>Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuf\Protobuffs.cpp">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="Protobuf\newvmt.cpp">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
